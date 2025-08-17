@@ -1,0 +1,35 @@
+{
+  "name": "@gustavo234124/hola-motivate-me",
+  "version": "1.0.1",
+  "description": "Un paquete CLI que saluda y motiva a los desarrolladores.",
+  "main": "index.js",
+  "bin": {
+    "motivate-me": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo234124/hola-motivate-me.git"
+  },
+  "keywords": [
+    "motivacion",
+    "cli",
+    "mensaje",
+    "motivador"
+  ],
+  "author": "Gustavo Aguilar (ElTavoDev)",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "type": "module",
+  "homepage": "https://github.com/gustavo234124/hola-motivate-me#readme",
+  "bugs": {
+    "url": "https://github.com/gustavo234124/hola-motivate-me/issues"
+  },
+  "dependencies": {
+    "@gustavo234124/hola-motivate-me": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
